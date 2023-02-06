@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Management System </title>
+    <link href="\images\Icon-title.png" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="design.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="searchbyid.js">
+    </script>
+
+</head>
+<style>
+    i.custom {
+        font-size: 6em;
+        color: green;
+    }
+
+    .searchbar {
+        height: min-content !important;
+        width: 500px !important;
+    }
+</style>
+<script>
+    function adminlogin() {
+        window.location = "\admin-login.html"
+
+    }
+    function scoreboard() {
+        window.location = '\scoreboard.html'
+
+    }
+    function backToHome() {
+        window.location = '\index.html'
+    }
+</script>
+
+
+<body onload='getStudentInfo()' class="backimage">
+    <div>
+        <div class="toolbar">
+            <div class="logoInfo">
+                <img src="./images/icon.png" alt="'Image Not found" class="logoIcon" onclick="backToHome()" />
+            </div>
+            <div class="d-flex searchbar">
+                <input class="form-control me-2" type="search" placeholder="Search by Student ID" aria-label="Search"
+                    id="studentid">
+                <button class="btn btn-outline-success" type="submit" onclick="studentSearchbyId()"><i
+                        class="material-icons mt-2 ">search</i></button>
+            </div>
+            <div class="buttonstoolbar">
+                <button class="btn btn-Dark scoreboard" onclick="scoreboard()" data-placement="bottom"
+                    title="Score Board">SCORE BOARD</button>
+                <button class=" btn btn-Light scoreboard" onclick="adminlogin()" data-placement="bottom"
+                    title="Admin Login">ADMIN LOGIN</button>
+            </div>
+        </div>
+        <div>
+            <table style="width:100% ; visibility:hidden " class="table table-hover " id='studentsearchTable'>
+                <thead>
+                    <tr>
+                        <th scope="col">StudentID</th>
+                        <th scope="col">StudentName</th>
+                        <th scope="col">Course</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Marks</th>
+                        <th scope="col">Attendence</th>
+
+                    </tr>
+                </thead>
+                <tbody id="studentsearchdata"></tbody>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

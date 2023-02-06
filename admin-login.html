@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="design.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+
+</head>
+<script type="text/javascript" src="loginvalidation.js">
+</script>
+
+<body class="studentimagecontainer">
+    <div>
+        <div class="admin-Login-Container ">
+            <div class="admin-Login-form col-4 ">
+                <i class="material-icons customuser m-4">person</i>
+
+                <div class="alert alert-danger d-flex align-items-center alertmessage" role="alert" id="alertmessage"
+                    style="display:none !important">
+                    Enter valid Email ID and Password
+                </div>
+                <div class="form-floating mb-3">
+
+                    <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
+                    <label for="emailaddress">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="Userpassword" placeholder="Password">
+                    <label for="Userpassword">Password</label>
+                </div>
+                <button class="btn btn-primary submit-Login mb-4" onclick="validadmin()"><i
+                        class="material-icons  adminlogin">login</i>
+                    <label>Login</label>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

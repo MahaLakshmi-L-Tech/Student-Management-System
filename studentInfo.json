@@ -1,0 +1,407 @@
+[
+  {
+    "studentId": "1",
+    "studentName": "Chandrakala",
+    "course": "BE",
+    "courseDuration": "4",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "80",
+        "attendece": "60"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "90",
+        "attendece": "80"
+      },
+      {
+        "year": "2012",
+        "marksObtained": "86",
+        "attendece": "90"
+      },
+      {
+        "year": "2013",
+        "marksObtained": "90",
+        "attendece": "97"
+      }
+    ]
+  },
+  {
+    "studentId": "2",
+    "studentName": "Arun kumar",
+    "course": "BE",
+    "courseDuration": "4",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "85",
+        "attendece": "90"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "80",
+        "attendece": "85"
+      },
+      {
+        "year": "2012",
+        "marksObtained": "70",
+        "attendece": "78"
+      }
+    ]
+  },
+  {
+    "studentId": "3",
+    "studentName": "Dileep",
+    "course": "BE",
+    "courseDuration": "4",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "65",
+        "attendece": "70"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "65",
+        "attendece": "85"
+      },
+      {
+        "year": "2012",
+        "marksObtained": "78",
+        "attendece": "97"
+      }
+    ]
+  },
+  {
+    "studentId": "4",
+    "studentName": "Kavitha",
+    "course": "BE",
+    "courseDuration": "4",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "44",
+        "attendece": "55"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "88",
+        "attendece": "88"
+      },
+      {
+        "year": "2012",
+        "marksObtained": "76",
+        "attendece": "56"
+      }
+    ]
+  },
+  {
+    "studentId": "5",
+    "studentName": "Chaitra",
+    "course": "BE",
+    "courseDuration": "4",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "56",
+        "attendece": "23"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "76",
+        "attendece": "87"
+      },
+      {
+        "year": "2012",
+        "marksObtained": "70",
+        "attendece": "45"
+      }
+    ]
+  },
+  {
+    "studentId": "11",
+    "studentName": "Yashodha",
+    "course": "MCA",
+    "courseDuration": "2",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "70",
+        "attendece": "90"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "75",
+        "attendece": "67"
+      }
+    ]
+  },
+  {
+    "studentId": "12",
+    "studentName": "Divyashree",
+    "course": "MCA",
+    "courseDuration": "2",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "90",
+        "attendece": "89"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "90",
+        "attendece": "97"
+      }
+    ]
+  },
+  {
+    "studentId": "13",
+    "studentName": "Shashi",
+    "course": "MCA",
+    "courseDuration": "2",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "88",
+        "attendece": "89"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "87",
+        "attendece": "99"
+      }
+    ]
+  },
+  {
+    "studentId": "14",
+    "studentName": "Charu",
+    "course": "MCA",
+    "courseDuration": "2",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "45",
+        "attendece": "67"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "78",
+        "attendece": "89"
+      }
+    ]
+  },
+  {
+    "studentId": "15",
+    "studentName": "Sundar",
+    "course": "MCA",
+    "courseDuration": "2",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "87",
+        "attendece": "89"
+      }
+    ]
+  },
+  {
+    "studentId": "111",
+    "studentName": "Sowmya",
+    "course": "B.COM",
+    "courseDuration": "3",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "90",
+        "attendece": "89"
+      },
+      {
+        "year": "2012",
+        "marksObtained": "45",
+        "attendece": "67"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "78",
+        "attendece": "89"
+      }
+    ]
+  },
+  {
+    "studentId": "112",
+    "studentName": "Gagana",
+    "course": "B.COM",
+    "courseDuration": "3",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "56",
+        "attendece": "44"
+      },
+      {
+        "year": "2012",
+        "marksObtained": "55",
+        "attendece": "75"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "45",
+        "attendece": "89"
+      }
+    ]
+  },
+  {
+    "studentId": "113",
+    "studentName": "Bhaskar",
+    "course": "B.COM",
+    "courseDuration": "3",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "33",
+        "attendece": "46"
+      },
+      {
+        "year": "2012",
+        "marksObtained": "36",
+        "attendece": "54"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "78",
+        "attendece": "79"
+      }
+    ]
+  },
+  {
+    "studentId": "114",
+    "studentName": "Rashmi",
+    "course": "B.COM",
+    "courseDuration": "3",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "91",
+        "attendece": "98"
+      },
+      {
+        "year": "2012",
+        "marksObtained": "56",
+        "attendece": "34"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "45",
+        "attendece": "78"
+      }
+    ]
+  },
+  {
+    "studentId": "115",
+    "studentName": "Harish",
+    "course": "B.COM",
+    "courseDuration": "3",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "67",
+        "attendece": "44"
+      },
+      {
+        "year": "2012",
+        "marksObtained": "87",
+        "attendece": "67"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "98",
+        "attendece": "45"
+      }
+    ]
+  },
+  {
+    "studentId": "1111",
+    "studentName": "Dheeraj",
+    "course": "M.COM",
+    "courseDuration": "2",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "90",
+        "attendece": "89"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "45",
+        "attendece": "67"
+      }
+    ]
+  },
+  {
+    "studentId": "1112",
+    "studentName": "Priya",
+    "course": "M.COM",
+    "courseDuration": "2",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "76",
+        "attendece": "56"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "56",
+        "attendece": "98"
+      }
+    ]
+  },
+  {
+    "studentId": "1113",
+    "studentName": "Veeksha",
+    "course": "M.COM",
+    "courseDuration": "2",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "65",
+        "attendece": "87"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "45",
+        "attendece": "89"
+      }
+    ]
+  },
+  {
+    "studentId": "1114",
+    "studentName": "Deepak Kumar",
+    "course": "M.COM",
+    "courseDuration": "2",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "65",
+        "attendece": "76"
+      },
+      {
+        "year": "2011",
+        "marksObtained": "87",
+        "attendece": "76"
+      }
+    ]
+  },
+  {
+    "studentId": "1115",
+    "studentName": "Prathik",
+    "course": "M.COM",
+    "courseDuration": "2",
+    "marks": [
+      {
+        "year": "2010",
+        "marksObtained": "54",
+        "attendece": "66"
+      }
+    ]
+  }
+]

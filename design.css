@@ -1,0 +1,272 @@
+.toolbar {
+  display: flex;
+  gap: 10%;
+  background-color: rgb(0, 0, 0, 0.2);
+  justify-content: space-between;
+  align-items: center;
+}
+.head {
+  padding-right: 300px;
+}
+.buttonstoolbar {
+  display: flex !important;
+  justify-content: space-evenly;
+  width: 300px !important;
+  margin: 20px;
+}
+.logoIcon {
+  height: 100px !important;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 0px 3%;
+  justify-content: space-between;
+}
+.stdentdetails {
+  display: block;
+  text-align: center;
+  align-items: center !important;
+}
+.table {
+  margin-top: 50px;
+  background-color: rgb(242, 224, 206);
+  border: 1px solid black;
+}
+.table > thead {
+  background-color: white !important;
+}
+.table > tbody {
+  background-color: lightcyan;
+}
+.form {
+  background-color: rgb(186, 223, 223);
+}
+
+.studentupdatecontainer {
+  justify-content: center;
+  align-items: center;
+  width: 500px !important;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 20px 20px rgb(57, 56, 56);
+  margin-top: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  color: #000000;
+}
+
+.studentimagecontainer {
+  background-image: url("/images/college.jpg");
+  background-size: cover;
+  padding-bottom: 20px;
+}
+.studentupdatecontainer > h3 {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+.studentaddcontainer {
+  justify-content: center;
+  align-items: center;
+  width: 540px !important;
+  border: 2px groove;
+  border-radius: 10px;
+  box-shadow: 20px 20px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.studentinfo {
+  display: flex;
+  flex-direction: row;
+}
+.admin-Login-Container {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  margin-top: 103px !important;
+  margin-bottom: 206px !important;
+}
+.admin-Login-form {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: space-around;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 513px !important;
+
+  box-shadow: 20px 20px 20px darkred;
+}
+.form-floating {
+  width: 408px !important;
+}
+
+.customuser {
+  font-size: 35px !important;
+  margin-top: 15px;
+  border-radius: 15px;
+  color: white;
+}
+.adminlogout {
+  color: white;
+  font-size: 40px !important;
+
+  cursor: pointer;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.courselist {
+  width: 360px !important;
+  margin-left: 30px !important;
+  align-items: center;
+  padding: 10px;
+}
+.courselisted {
+  margin-left: 1px !important;
+}
+.align-right > .buttonstoolbars {
+  display: flex;
+  height: min-content;
+  margin: 10px;
+
+  margin-top: 30px;
+}
+.align-right {
+  float: left !important;
+  position: relative;
+}
+.toolbars {
+  display: flex !important;
+  background-color: rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gap1 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.addstudentform {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: space-around;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 50% !important;
+  box-shadow: 20px 20px;
+}
+.logoInfo {
+  display: flex;
+  color: white;
+}
+.logId {
+  margin-top: 20px;
+}
+.backtohome {
+  align-content: center;
+}
+.addstudent {
+  text-align: center;
+}
+.courseexamyear {
+  display: flex;
+  color: white;
+}
+.submitbackhome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px !important;
+  margin-bottom: 30px;
+}
+.updatestudentinfo > .input-group {
+  color: white !important;
+}
+.studentaddcontainer > h3 {
+  color: white;
+}
+.studentupdatecontainer > .courselisted > .selectedYear {
+  color: #000000;
+}
+.studentaddcontainer_inputs > .input-group {
+  color: white;
+}
+.logid {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.logid > h5 {
+  color: white;
+}
+.logouthome {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 30px;
+}
+.backimage {
+  background-image: url("/images/bg.jpg");
+  background-size: cover;
+}
+.scoreboard {
+  color: white;
+  border-color: white;
+}
+.table-hover {
+  margin-top: 50px;
+}
+.table-hoverscore > td {
+  color: rgb(12, 12, 12);
+}
+
+.tableborder {
+  border-color: rgb(249, 247, 247) !important;
+}
+.adminlogin {
+  margin-right: 5px !important;
+}
+.submit-Login {
+  display: flex !important;
+}
+.btn-outline-success {
+  color: white !important;
+  border-color: white !important;
+}
+.tooltip {
+  color: red;
+}
+.homelogout {
+  margin-right: 200px !important;
+  font-size: 50px;
+  margin-left: 30px;
+  padding: 10px;
+  cursor: pointer;
+}

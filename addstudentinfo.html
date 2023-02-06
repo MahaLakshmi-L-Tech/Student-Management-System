@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student Info</title>
+    <link href="\images\Icon-title.png" rel="icon">
+
+    <link rel="stylesheet" href="design.css">
+    <link href="https://cdn.jsdeoptionvr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<script type="text/javascript" src="studentinfo.js">
+
+</script>
+<script type="text/javascript" src="loginvalidation.js">
+</script>
+<script>
+    function addstudentinfo() {
+        window.location = '\addstudentinfo.html'
+    }
+
+    function updatestudentinfo() {
+        window.location = '\studentupdateinfo.html'
+    }
+
+    function scoreboard() {
+        window.location = '\scoreboard.html'
+    }
+
+    function backToHome() {
+        window.location = '\admin-dashboard.html';
+    }
+
+    function logout() {
+        window.location = '\index.html'
+    }
+
+</script>
+
+<body onload="updateEmail()">
+    <div class="studentimagecontainer">
+        <div class="toolbars">
+            <div class="logoInfo">
+                <img src="./images/icon.png" alt="'Image Not found" class="logoIcon" onclick="backToHome()" />
+                <div class="align-right">
+                    <div class="buttonstoolbars">
+                        <button class="btn btn-secondary gap" onclick="scoreboard()">SCORE BOARD</button>
+                        <button class="btn btn-secondary gap1" onclick="addstudentinfo()">ADD STUDENT</button><br>
+                        <button class="btn btn-secondary gap2" onclick="updatestudentinfo()">UPDATE STUDENT</button><br>
+
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="logid">
+                    <i class="material-icons customuser">person</i>
+                    <h5 id="logId" class="logId"></h5>
+
+                </div>
+                <div class="logouthome">
+                    <i class="material-icons  adminlogout " onclick="logout()" data-placement="bottom" title="Logout">
+                        logout</i>
+                    <i class="material-icons  adminlogout " onclick="backToHome()" data-placement="bottom"
+                        title="Home">home</i>
+
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="container studentaddcontainer"><br>
+                <h3 class="addstudent">Add Student details</h3><br>
+
+                <form>
+                    <fieldset class="container studentaddcontainer_inputs">
+                        <div class="input-group">
+                            <label class="col-md-4 control-label" for="studentID">Student ID:</label>
+                            <input type="text" id="studentID" name="studentID" class="form-control"
+                                placeholder="Enter Student ID"><br>
+                        </div><br>
+                        <div class="input-group">
+                            <label class="col-md-4 control-label" for="studentname">Student Name:</label>
+                            <input type="text" id="studentname" name="studentname" class="form-control"
+                                placeholder="Enter Student ID"><br>
+                        </div><br>
+                        <div class="input-group  courselisted">
+                            <label class="col-md-4 control-label" for="course">Course:</label>
+
+                            <select class="form-select courselistselect" id="courselistselect"
+                                aria-label="Floating label select example">
+                                <option value="">Select Course</option>
+                                <option value="B.COM">B.COM</option>
+                                <option value="BCA">BCA</option>
+                                <option value="BBM">BBM</option>
+                                <option value="BA">BA</option>
+                                <option value="BA">BA</option>
+                                <option value="MBA">MBA</option>
+                                <option value="MCA">MCA</option>
+                                <option value="MA">MA</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="input-group  courseDuration">
+                            <label class="col-md-4 control-label" for="course">Course Duration:</label>
+
+                            <select class="form-select courseDurationSelect" id="courseDurationSelect"
+                                aria-label="Floating label select example">
+                                <option value="">Select Course Duration </option>
+                                <option value="2">2 years</option>
+                                <option value="3">3 years</option>
+                                <option value="4">4 years</option>
+                            </select>
+                        </div>
+                        <br />
+                        <div class="input-group">
+                            <label class="col-md-4 control-label" for="Year">Exam Year:&nbsp;</label>
+                            <input type="text" id="examYear" name="Year" class="form-control"
+                                placeholder="Enter Exam Year"><br><br>
+                        </div><br>
+                        <div class="input-group">
+                            <label class="col-md-4 control-label" for="marks">Overall Marks:</label>
+                            <input type="text" id="marksObtained" name="marks" class="form-control"
+                                placeholder="Enter marksObtained"><br><br>
+                        </div><br>
+                        <div class="input-group">
+                            <label class="col-md-4 control-label" for="Attendence">Attendence:</label>
+                            <input type="text" id="attendence" name="Attendence" class="form-control"
+                                placeholder="Enter attendence"><br><br>
+                        </div>
+                        <div class="form-group ">
+                            <label class="col-md-2 control-label"></label>
+                            <div class="col submitbackhome">
+                                <button type="submit" class="btn btn-warning" onclick="saveToFile()">SUBMIT
+                                    <i class="glyphicon glyphicon-send"></i></button>
+
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
